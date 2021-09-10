@@ -1,50 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kiyomi James</title>
-</head>
-<body>
-  <h1>Welcome to My Website!</h1>
-  <h2>By: Kiyomi James</h2>
-  <p>A little about me:</p>
-<ol>
-  <li>I am in the Computer Scince Capstone.</li>
-  <li>I like listening to music</li>
-    <ul>
-      <li>loud music</li>
-      <li>quite music</li>
-      <li>other types</li>
-    </ul>
-    <li>I like when the windows are open, most of the time</li>
-</ol>
+    <!-- STEP 1: Change the title tag to be Your Name -->
+    <title>Kiyomi James :)</title>
 
-<a href="https://www.homedepot.com/c/ah/how-to-install-a-window/9ba683603be9fa5395fab90cb0f04a1">Link to learn how to open a window!</a>
-<p></p>
-<img src="https://images.unsplash.com/photo-1580383857470-d5eff2e6b845?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" width="320" height="240" alt="">
-<form method ="get">
-  <h3>Thoughts on Cat Above</h3>
+    <!-- STEP 2: INSERT THE BOOTSTRAP 4.6 links here or the Bootstrap 5 CSS link here in the head and the 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
 
-  <label for="name">Whats its name?:</label>
-  <input type="text" id="name" name= "name" placeholder="Kitty Cat">
-<p>Is it cute?</p>
-  <label for="yes">Yes:</label>
-  <input type="radio" name="cute" id="yes" value="yescute">
+      JavaScript Bundle link right before the closing body tag like it says here 
+         https://getbootstrap.com/docs/5.1/getting-started/introduction/ -->
+  </head>
+  <body>
 
-  <label for="no">No:</label>
-  <input type="radio" name="cute" id="no" value="notcute">
+    <nav class="navbar navbar-dark bg-dark" >
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dropdown
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    
+    <!--STEP 3:  ADD A DARK NAVBAR HERE WITH YOUR NAME IN THE TOP LEFT.  
+        Also, create a link in the navbar TO the HTML file that you made in the HTML assessment -->
+    </nav>
 
-  <p>Rate viewing experience</p>
-  <select name="experience">
-    <option value="10">10/10</option>
-    <option value="7">7/10</option>
-  </select>
-  <p></p>
-  <input type="submit" name="" value="Submit Feedback">
+    <div>
+      <!-- Add a class with custom styling to this div -->
+    </div>
 
-</form>
-<!--This is a commented out line-->
-</body>
+    <div>
+      <!-- Add the same class as before to apply the same styling to this div.
+           ALSO add an id to this div to apply something unique. -->
+    </div>
+
+    <!-- STEP 4: CREATE A PHOTO CAROUSEL HERE -->
+
+    <!-- STEP 5: ADD Bootstrap styling to the table below so it has striped rows 
+         and a header row and add at least three more rows. Feel free to change the text.-->
+
+    <table>
+      <th>
+        <td>A Person's Name</td><td>Their Fav Animal that starts with the first letter of their first name</td><td># of toes that animal has</td>
+      </th>
+      <tr>
+        <td></td><td></td><td></td>
+      </tr>
+    </table>
+
+  </body>
 </html>
