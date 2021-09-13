@@ -20,7 +20,7 @@
  
   </head>
   <body>
-
+  <div class="container">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="#">Kiyomi</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,7 +42,7 @@
 
     <div class="firstDiv">
 
-    </div>>
+    </div>
       <!-- Add a class with custom styling to this div -->
     
 
@@ -55,9 +55,14 @@
     <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.target.com%2Fp%2Flucky-charms-original-breakfast-cereal-10-5oz-general-mills%2F-%2FA-12935644&psig=AOvVaw0rbK7OgA262x6_CWil_0RZ&ust=1631388999924000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOji0eOT9fICFQAAAAAdAAAAABAD" class="d-block w-100" alt="...">
+          <img src="https://media.istockphoto.com/photos/funny-raccoon-in-green-sunglasses-showing-a-rock-gesture-isolated-on-picture-id1154370446?k=20&m=1154370446&s=612x612&w=0&h=2AWvof66ovB87P3b7C_cu0pCZlZhDDFYUFr2KQ2UnwQ=" class="d-block w-100" alt="...">
         </div>
-        
+        <div class="carousel-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSOJ2se5pgPjBt76Garwf272lrOJ4noApaCA&usqp=CAU" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwW19164a2r80eR41_KvFJt8y16H0zo97X5A&usqp=CAU" class="d-block w-100" alt="...">
+        </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -72,14 +77,37 @@
     <!-- STEP 5: ADD Bootstrap styling to the table below so it has striped rows 
          and a header row and add at least three more rows. Feel free to change the text.-->
 
-    <table>
-      <th>
-        <td>A Person's Name</td><td>Their Fav Animal that starts with the first letter of their first name</td><td># of toes that animal has</td>
-      </th>
-      <tr>
-        <td></td><td></td><td></td>
-      </tr>
-    </table>
-
+         <table class="table table-striped">
+          <thead class="thead-dark">
+            <tr>
+              <th scope="col">Friend number</th>
+              <th scope="col">freind name</th>
+              <th scope="col">Number of toes</th>
+              <th scope="col">fav animal</th>
+            </tr>
+          </thead>
+        
+          <tbody>
+            <tr>
+              <th scope="row">1</th>
+              <td>Ethan</td>
+              <td>16</td>
+              <td>elephant</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Olivia</td>
+              <td>10/20</td>
+              <td>ourangatang</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Amber</td>
+              <td>18</td>
+              <td>alligator</td>
+            </tr>
+          </tbody>
+        </table>
+  </div>
   </body>
 </html>
