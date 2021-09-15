@@ -1,6 +1,16 @@
 .firstDiv{
     font-weight: bold;
+    color: blue;
 }
+
+.secondDiv{
+    color: lightskyblue;
+}
+
+
 #special{
     background-color: aquamarine;
+}
+#special2{
+    background-color: lightcoral;
 }
